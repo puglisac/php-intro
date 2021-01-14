@@ -15,7 +15,8 @@
     <br>
     <!-- arrays can have mixed data types  -->
     <?php
-    $mixed = array(6, "fox", 2.4, "d", array(1, 2, 3));
+    //shorthand to create an array
+    $mixed = [6, "fox", 2.4, "d", array(1, 2, 3)];
 
     //get value from nested array
     echo $mixed[4][1]; ?>
