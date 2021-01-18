@@ -25,6 +25,7 @@
     ?>
     </pre>
     <br />
+    <pre>
     <?php
 
       function say_hello_to($word) {
@@ -34,5 +35,6 @@
 
       say_hello_to('Everyone');
     ?>
+    </pre>
   </body>
 </html>
